@@ -1,0 +1,60 @@
+body {
+  padding: 2rem;
+  height: 100vh;
+  background-color: $color-bg;
+  font-family: $font-main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  //box-shadow: 0 0 0 1px black;
+  border: 1px solid black;
+  background-color: blue;
+  //display: flex;
+  //flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  // font-family: arial;
+  // font-size: 2em;
+  align-items: center;
+}
+.item {
+  border: solid 1px black;
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  //flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.player1 {
+  border: solid 1px black;
+  background-color: yellow;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  //flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.player2 {
+  border: solid 1px black;
+  background-color: red;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  //flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
