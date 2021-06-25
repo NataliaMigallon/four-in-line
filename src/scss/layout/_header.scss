@@ -6,8 +6,9 @@
     justify-content: center;
     font-family: $font-header;
     color: $color-title;
+    padding-top: 100px;
     &--four {
-      font-size: 200px;
+      font-size: 178px;
       padding: 0 20px 0 100px;
     }
     &--wrapper {
@@ -15,7 +16,7 @@
       flex-direction: column;
     }
     &--in {
-      padding-top: 42px;
+      padding-top: 13px;
       font-size: 60px;
     }
     &--line {
