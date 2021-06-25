@@ -11,19 +11,19 @@ for (let index = 0; index < 12; index++) {
   if (index % 2 === 0) {
     // let [box, position] = machineTurn(arrayMove);
     // arrayMove[position] = arrayMove[position] + 4;
-    const itemElement1 = document.querySelectorAll(".item");
-    const renderMachine = () => {
-      let [box, position] = machineTurn(arrayMove);
-      arrayMove[position] = arrayMove[position] + 4;
-      box.classList.add("player1");
-    };
-    itemElement1.addEventListener(renderMachine());
+    // const itemElement1 = document.querySelectorAll(".item");
+    // const renderMachine = () => {
+    //   let [box, position] = machineTurn(arrayMove);
+    //   arrayMove[position] = arrayMove[position] + 4;
+    //   box.classList.add("player1");
+    // };
+    // itemElement1.addEventListener(renderMachine());
     // itemElement1.forEach((element) => {
     //   element.renderMachine();
     // });
     //itemElement1.addEventListener(renderMachine);
   } else {
-    const itemElement = document.querySelectorAll(".item");
+    const itemElement = document.querySelectorAll(".js-item");
 
     const handleClick = (event) => {
       const itemSelected = event.currentTarget;
